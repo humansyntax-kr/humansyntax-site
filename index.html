@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2455f5">
+  <title>휴먼신택스 Human Syntax — AI 시대, 인간과 일의 새로운 문법</title>
+  <meta name="description" content="휴먼신택스는 AI 활용 교육, 업무 자동화 컨설팅, 기업 AX 자문과 콘텐츠 제작을 통해 사람과 조직의 새로운 일하는 방식을 함께 만듭니다. 강의·컨설팅 문의: peter@humansyntax.kr">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="휴먼신택스 Human Syntax">
+  <meta property="og:description" content="AI 시대, 인간과 일의 새로운 문법을 정의합니다. AI 교육 · 업무 자동화 · 기업 AX 자문 · 콘텐츠 제작">
+  <meta property="og:locale" content="ko_KR">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+    :root{--ink:#15171b;--muted:#626872;--blue:#2455f5;--line:#dfe3e9;--paper:#fff;--soft:#f5f7fa}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,'Noto Sans KR',sans-serif;-webkit-font-smoothing:antialiased;word-break:keep-all}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible{outline:3px solid var(--blue);outline-offset:6px}::selection{background:#dbe4ff} .wrap{width:min(1200px,calc(100% - 96px));margin:auto}
+    .skip{position:fixed;left:20px;top:-100px;padding:12px;background:var(--ink);color:white;z-index:100}.skip:focus{top:12px}header{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:10}.header-inner{height:88px;display:flex;align-items:center;justify-content:space-between;gap:30px}.brand{display:inline-flex;align-items:center;gap:11px;font-size:17px;font-weight:800;letter-spacing:-.7px}.brand-mark{color:var(--blue);font-size:30px;letter-spacing:-6px;padding-right:5px;font-weight:500}nav{display:flex;align-items:center;gap:32px;font-size:13px;font-weight:600}nav a:hover{color:var(--blue)}nav .nav-contact{border:1px solid var(--ink);padding:11px 17px}.arrow{margin-left:14px}
+    .eyebrow{display:flex;align-items:center;gap:10px;color:var(--blue);font-size:11px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase}.dot{width:6px;height:6px;background:var(--blue);display:inline-block;border-radius:50%}.hero{padding:78px 0 35px}.hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:60px;align-items:center;margin-top:35px}h1{margin:0;font-size:clamp(40px,4.6vw,64px);font-weight:700;line-height:1.28;letter-spacing:-3.5px}h1 em{color:var(--blue);font-style:normal}.hero-description{max-width:500px;font-size:16px;line-height:1.9;color:var(--muted);margin:26px 0 31px}.button{display:inline-flex;justify-content:center;align-items:center;gap:32px;padding:17px 22px;background:var(--blue);color:white;font-size:14px;font-weight:600;transition:background .2s,transform .2s}.button:hover{background:#153ed0;transform:translateY(-2px)}.hero-art{min-height:360px;position:relative;background:var(--soft);overflow:hidden;display:flex;align-items:center;justify-content:center}.hero-art:before{content:'';position:absolute;inset:0;background-image:linear-gradient(#e6eaf0 1px,transparent 1px),linear-gradient(90deg,#e6eaf0 1px,transparent 1px);background-size:30px 30px;mask-image:linear-gradient(135deg,#000,transparent)}.syntax{position:relative;width:82%;padding:38px 0}.syntax-line{display:flex;align-items:center;gap:13px;font-weight:600;letter-spacing:-2px;font-size:clamp(30px,3.1vw,43px);line-height:1.55}.bracket{color:var(--blue);font-weight:400}.syntax-line:nth-child(2){justify-content:center;color:var(--blue)}.syntax-line:nth-child(3){justify-content:flex-end}.syntax-plus{font-size:23px;font-weight:400;color:#8f98a9}.art-caption{position:absolute;bottom:19px;left:23px;color:#737d8e;font-size:9px;letter-spacing:1.5px}.art-corner{position:absolute;right:18px;top:17px;font-size:11px;color:var(--blue)}.hero-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:38px;margin-top:44px;border-top:1px solid var(--line);font-size:10px;letter-spacing:1.7px;color:var(--muted)}
+    section{padding:100px 0}.section-top{display:grid;grid-template-columns:1fr 3fr;gap:48px;margin-bottom:48px}.section-label{font-size:11px;letter-spacing:1.6px;font-weight:600;color:var(--blue);padding-top:9px}.section-label span{color:#9299a4;margin-right:17px}h2{font-size:clamp(28px,3vw,40px);letter-spacing:-1.7px;line-height:1.5;font-weight:600;margin:0}.intro{border-bottom:1px solid var(--line)}.intro-copy{color:var(--muted);font-size:16px;line-height:1.95;max-width:690px;margin:24px 0 0}.intro-english{font-size:12px;color:#858b95;margin-top:27px;letter-spacing:.2px}.services{background:var(--soft)}.service-list{border-top:1px solid var(--ink)}.service{display:grid;grid-template-columns:70px 1fr 1.15fr;gap:24px;padding:32px 0;border-bottom:1px solid var(--line);align-items:start}.service-number{font-size:12px;color:var(--blue);padding-top:7px}.service h3{font-size:23px;letter-spacing:-.9px;font-weight:600;margin:0 0 9px}.service-en{font-size:11px;color:#7c8490;letter-spacing:.4px}.service p{margin:0;font-size:14px;line-height:1.9;color:var(--muted)}
+    .profile-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px}.profile-heading{font-size:29px;letter-spacing:-1px;margin:30px 0 7px}.profile-alias{font-size:12px;color:var(--muted);margin:0 0 28px}.profile-copy{font-size:15px;line-height:1.9;color:var(--muted);max-width:430px}.career{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}.career li{padding:21px 0;border-bottom:1px solid var(--line);display:flex;gap:24px;align-items:baseline}.career span{font-size:10px;color:var(--blue);min-width:22px}.career strong{font-size:15px;font-weight:500}.career small{display:block;font-size:11px;color:#838a94;font-weight:400;letter-spacing:.3px;margin-top:8px}
+    .contact{background:var(--blue);color:white}.contact .section-label,.contact .section-label span{color:#c4d1ff}.contact-inner{display:grid;grid-template-columns:1fr 3fr;gap:48px}.contact h2{font-size:clamp(30px,3.7vw,48px);line-height:1.4;letter-spacing:-2px}.contact p{color:#d5dfff;font-size:15px;line-height:1.9;margin:22px 0 32px}.email-link{font-size:clamp(18px,2.7vw,33px);letter-spacing:-.7px;display:inline-flex;gap:28px;border-bottom:1px solid #a0b6ff;padding-bottom:13px;overflow-wrap:anywhere;word-break:break-word}.email-link:hover{border-color:white}.contact-note{font-size:11px!important;color:#c4d1ff!important;margin-top:24px!important}footer{padding:32px 0}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-brand{font-size:13px;font-weight:700;letter-spacing:-.4px}.copyright{font-size:10px;color:#7a818c}
+    @media(min-width:1500px){.hero{padding-top:105px}.hero-art{min-height:400px}}
+    @media(max-width:900px){.wrap{width:calc(100% - 48px)}.hero-grid{gap:28px;grid-template-columns:1.3fr 1fr}h1{font-size:43px;letter-spacing:-2.5px}.hero-art{min-height:310px}.syntax-line{font-size:30px}.section-top,.contact-inner{grid-template-columns:1fr 3fr;gap:24px}.profile-layout{gap:40px}.service{grid-template-columns:35px 1fr 1.1fr;gap:15px}}
+    @media(max-width:640px){html{scroll-padding-top:100px}.wrap{width:calc(100% - 40px)}.header-inner{height:auto;min-height:94px;flex-wrap:wrap;gap:9px;padding:15px 0}.brand{font-size:15px}.brand-mark{font-size:26px}nav{width:100%;gap:25px;font-size:11px;justify-content:flex-end}nav .nav-contact{padding:6px 10px}.hero{padding:44px 0 24px}.eyebrow{font-size:9px;letter-spacing:1px}.hero-grid{grid-template-columns:1fr;gap:36px;margin-top:28px}h1{font-size:40px;letter-spacing:-2.6px}.hero-description{font-size:14px;margin:23px 0 26px}.button{font-size:13px;padding:15px 19px}.hero-art{min-height:260px}.syntax{width:70%;max-width:290px;padding:30px 0}.syntax-line{font-size:36px}.hero-bottom{margin-top:28px;padding-top:24px;font-size:8px;letter-spacing:.8px}.hero-bottom span:last-child{display:none}section{padding:64px 0}.section-top{grid-template-columns:1fr;gap:24px;margin-bottom:32px}.section-label{font-size:10px}h2{font-size:28px;letter-spacing:-1.3px}.intro-copy{font-size:14px}.intro-english{font-size:10px}.service{grid-template-columns:25px 1fr;gap:10px;padding:26px 0}.service h3{font-size:21px}.service p{grid-column:2;font-size:13px;margin-top:6px}.service-en{font-size:10px}.profile-layout{grid-template-columns:1fr;gap:28px}.profile-heading{margin-top:23px;font-size:27px}.profile-copy{font-size:14px}.career li{padding:18px 0}.career strong{font-size:14px}.contact-inner{grid-template-columns:1fr;gap:25px}.contact h2{font-size:32px;letter-spacing:-1.5px}.contact p{font-size:14px}.email-link{font-size:20px;gap:16px}.contact-note{font-size:10px!important}.footer-inner{align-items:flex-start;flex-direction:column;gap:11px}.copyright{font-size:9px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 바로가기</a>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand" href="#main" aria-label="휴먼신택스 홈"><span class="brand-mark" aria-hidden="true">[ ]</span> HUMAN SYNTAX</a>
+      <nav aria-label="주요 메뉴"><a href="#about">About</a><a href="#services">Services</a><a href="#contact" class="nav-contact">문의하기 <span class="arrow" aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap hero">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span> Human perspective. New possibilities.</div>
+      <div class="hero-grid">
+        <div>
+          <h1>AI 시대,<br>인간과 일의<br><em>새로운 문법</em>을<br>정의합니다.</h1>
+          <p class="hero-description">기술을 이해하고, 일에 연결하고, 변화로 이어가는 힘.<br>휴먼신택스는 사람과 조직의 다음 가능성을 함께 만듭니다.</p>
+          <a class="button" href="mailto:peter@humansyntax.kr?subject=%5BHuman%20Syntax%5D%20강의·컨설팅%20문의">강의·컨설팅 문의 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" role="img" aria-label="인간과 AI가 만나 새로운 일의 방식을 만드는 휴먼신택스의 철학">
+          <span class="art-corner" aria-hidden="true">HS / 01</span>
+          <div class="syntax" aria-hidden="true"><div class="syntax-line"><span class="bracket">[</span> HUMAN <span class="bracket">]</span></div><div class="syntax-line"><span class="syntax-plus">+</span> AI</div><div class="syntax-line"><span class="bracket">→</span> NEW WORK</div></div>
+          <span class="art-caption" aria-hidden="true">REDEFINING THE WAY WE WORK</span>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>EDUCATION &nbsp; / &nbsp; CONSULTING &nbsp; / &nbsp; CONTENTS</span><span>EXPLORE HUMAN SYNTAX ↓</span></div>
+    </div>
+    <section class="intro" id="about">
+      <div class="wrap section-top" style="margin-bottom:0">
+        <div class="section-label"><span>01</span> ABOUT US</div>
+        <div><h2>변화의 중심에는<br>언제나 사람이 있습니다.</h2><p class="intro-copy">AI가 일하는 방식을 바꾸는 지금, 우리에게 필요한 것은 기술을 이해하고 자신의 일에 적용하는 힘입니다. 휴먼신택스는 현장의 과제에서 출발해, 사람과 조직에 맞는 AI 활용 방법을 함께 찾습니다.</p><p class="intro-copy">배움이 실행으로, 실행이 새로운 일하는 방식으로 이어지도록.<br>교육과 컨설팅, 콘텐츠로 변화의 과정을 함께합니다.</p><p class="intro-english" lang="en">Human Syntax — A new language for people and work.</p></div>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="section-top"><div class="section-label"><span>02</span> WHAT WE DO</div><h2>이해에서 실행까지,<br>조직에 맞는 변화를 설계합니다.</h2></div>
+        <div class="service-list">
+          <article class="service"><span class="service-number">01 /</span><div><h3>AI 활용 강의·워크숍</h3><div class="service-en" lang="en">AI Education & Workshops</div></div><p>실무자가 자신의 업무에 AI를 적용할 수 있도록 돕습니다. 대상과 업무 맥락에 맞춘 강의와 실습으로 이해를 넘어 직접 활용하는 경험을 만듭니다.</p></article>
+          <article class="service"><span class="service-number">02 /</span><div><h3>업무 자동화 컨설팅</h3><div class="service-en" lang="en">Workflow Automation</div></div><p>반복되는 업무와 비효율을 살펴보고 자동화할 수 있는 지점을 찾습니다. 실제 업무 흐름에 맞는 도구와 방식을 검토하고, 적용 방향을 구체화합니다.</p></article>
+          <article class="service"><span class="service-number">03 /</span><div><h3>기업 AX 자문</h3><div class="service-en" lang="en">AI Transformation Advisory</div></div><p>AI 도입을 어디서 시작해야 할지 함께 고민합니다. 조직의 상황과 목표를 바탕으로 우선 과제를 정리하고, 사람과 업무를 함께 고려한 전환 방향을 제안합니다.</p></article>
+          <article class="service"><span class="service-number">04 /</span><div><h3>콘텐츠 제작</h3><div class="service-en" lang="en">Content Planning & Production</div></div><p>기술과 지식을 이해하기 쉬운 콘텐츠로 풀어냅니다. 대상과 목적에 맞는 기획을 통해 AI 활용과 배움을 돕는 교육·미디어 콘텐츠를 만듭니다.</p></article>
+        </div>
+      </div>
+    </section>
+    <section id="people">
+      <div class="wrap profile-layout">
+        <div><div class="section-label"><span>03</span> BEHIND HUMAN SYNTAX</div><h2 class="profile-heading">이창우 <span style="font-size:16px;font-weight:400;color:var(--muted)">미들피터</span></h2><p class="profile-alias" lang="en">Founder · Human Syntax</p><p class="profile-copy">소프트웨어 개발에서 코딩 교육, 성인·기업 AI 교육까지. 기술을 만드는 경험과 사람의 배움을 돕는 경험을 연결해, 현장에서 활용할 수 있는 AI의 가능성을 전합니다.</p></div>
+        <ul class="career" aria-label="대표자 주요 경력"><li><span>01</span><strong>컴퓨터공학 전공<small lang="en">Computer Engineering</small></strong></li><li><span>02</span><strong>반도체회사 소프트웨어 개발<small lang="en">Software Development</small></strong></li><li><span>03</span><strong>K12 코딩 교육 아카데미 연구원 및 운영<small lang="en">Coding Education · Research & Operations</small></strong></li><li><span>04</span><strong>성인·기업체 AI 및 AX 출강<small lang="en">AI & AX Education</small></strong></li></ul>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="wrap contact-inner"><div class="section-label"><span>04</span> LET’S TALK</div><div><h2>우리 조직의 다음 변화,<br>함께 이야기해 볼까요?</h2><p>AI 교육이 필요한 순간부터 업무의 변화를 고민하는 순간까지.<br>강의·워크숍, 컨설팅 및 협업 제안을 기다립니다.</p><a class="email-link" href="mailto:peter@humansyntax.kr?subject=%5BHuman%20Syntax%5D%20강의·컨설팅%20문의">peter@humansyntax.kr <span aria-hidden="true">↗</span></a><p class="contact-note">문의 시 소속, 관심 분야, 대상 인원과 희망 일정을 알려주시면 상담에 도움이 됩니다.</p></div></div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="footer-brand" href="#main">HUMAN SYNTAX</a><span class="copyright" lang="en">© 2026 Human Syntax. All rights reserved.</span></div></footer>
+</body>
+</html>
